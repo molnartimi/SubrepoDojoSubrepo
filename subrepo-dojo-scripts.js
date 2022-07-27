@@ -3,6 +3,7 @@ var ctr = 1;
 function onButtonClick() {
 	const elementToUpdate = getElementToUpdate();
 	updateElement(elementToUpdate);
+	console.log('Element update is done');
 }
 
 function getElementToUpdate() {
