@@ -1,12 +1,12 @@
 var ctr = 1;
 
-function onButtonClick() {
-	const elementToUpdate = getElementToUpdate();
+function onButtonClick(elementIdToUpdate) {
+	const elementToUpdate = getElementToUpdate(elementIdToUpdate);
 	updateElement(elementToUpdate);
 }
 
-function getElementToUpdate() {
-	return window.document.getElementById('myText');
+function getElementToUpdate(elementIdToUpdate) {
+	return window.document.getElementById(elementIdToUpdate);
 }
 
 function updateElement(element) {
