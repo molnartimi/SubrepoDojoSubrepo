@@ -1,4 +1,4 @@
-var ctr = 1;
+var ctr = 100;
 
 function onButtonClick() {
 	const elementToUpdate = getElementToUpdate();
